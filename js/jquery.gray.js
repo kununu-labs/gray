@@ -96,7 +96,8 @@
           margin;
 
       x = backgroundPosition.match(/^(-?\d+\S+)/)[0];
-      y = backgroundPosition.match(/\s(-?\d+\S+)$/)[0];
+      y = backgroundPosition.match(/\s(-?\d+\S+)$/);
+      y = y ? y[0] : x; // Allow a single background-position property
 
       margin = 'margin:' + y + ' 0 0 ' + x;
 
