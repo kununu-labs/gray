@@ -50,7 +50,7 @@ Or you can just [download](https://github.com/karlhorky/gray/archive/gh-pages.zi
     <script src="/js/jquery.gray.min.js"></script>
     ```
 
-    The plugin automatically initializes for all elements with a class of ```grayscale```.
+    The plugin automatically initializes for all elements with a class of `grayscale`.
 
     The plugin can also be called manually with:
 
@@ -64,7 +64,7 @@ Or you can just [download](https://github.com/karlhorky/gray/archive/gh-pages.zi
     $('.grayscale').toggleClass('grayscale-off');
     ```
 
-3. Add your image with a class of ```grayscale```.
+3. Add your image with a class of `grayscale`.
 
     ```html
     <img src="/img/color.jpg" class="grayscale">
@@ -85,7 +85,7 @@ Or you can just [download](https://github.com/karlhorky/gray/archive/gh-pages.zi
 
     Non-numeric background-size (cover, contain, ...) and background-position (center, ...) are not currently supported (pull requests welcome!).
 
-4. (Optional) Add class of ```grayscale-fade``` if you want transitioning from grayscale back to color on hover
+4. (Optional) Add class of `grayscale-fade` if you want transitioning from grayscale back to color on hover
 
     ```html
     <img src="/img/color.jpg" class="grayscale grayscale-fade">
@@ -127,9 +127,9 @@ Colored borders will be also converted to grayscale in non-polyfill browsers. To
 
 ## How it Works
 
-In [browsers that support css filters](http://caniuse.com/#feat=css-filters), the styles in ```gray.css``` will use CSS filters to turn the image gray.
+In [browsers that support css filters](http://caniuse.com/#feat=css-filters), the styles in `gray.css` will use CSS filters to turn the image gray.
 
-The ```jquery.gray``` plugin uses the ```Modernizr._prefixes```, ```css-filters```, ```Inline SVG``` and ```svg-filters``` feature detects from Modernizr to determine browser support. If a browser supports inline SVG and SVG filters but not CSS filters, the plugin replaces the elements with SVG elements with filters.
+The `jquery.gray` plugin uses the `Modernizr._prefixes`, `css-filters`, `Inline SVG` and `svg-filters` feature detects from Modernizr to determine browser support. If a browser supports inline SVG and SVG filters but not CSS filters, the plugin replaces the elements with SVG elements with filters.
 
 ## Changelog
 
