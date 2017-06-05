@@ -91,7 +91,9 @@ Or you can just [download](https://github.com/karlhorky/gray/archive/gh-pages.zi
     <img src="/img/color.jpg" class="grayscale grayscale-fade">
     ```
 
-5. Revel in your absolute and utter awesomeness.
+5. If you are using Modernizr already, make sure that the [required feature detects](https://github.com/karlhorky/gray#how-it-works) are included in your build.
+
+6. Revel in your absolute and utter awesomeness.
 
 ## Caveats
 
@@ -129,7 +131,9 @@ Colored borders will be also converted to grayscale in non-polyfill browsers. To
 
 In [browsers that support css filters](http://caniuse.com/#feat=css-filters), the styles in `gray.css` will use CSS filters to turn the image gray.
 
-The `jquery.gray` plugin uses the `Modernizr._prefixes`, `css-filters`, `Inline SVG` and `svg-filters` feature detects from Modernizr to determine browser support. If a browser supports inline SVG and SVG filters but not CSS filters, the plugin replaces the elements with SVG elements with filters.
+### Modernizr
+
+The `jquery.gray` plugin uses the [`Modernizr._prefixes`, `css-filters`, `Inline SVG` and `svg-filters` feature detects](https://modernizr.com/download/?cssfilters-inlinesvg-svgfilters-prefixes-setclasses) from Modernizr to determine browser support. If a browser supports inline SVG and SVG filters but not CSS filters, the plugin replaces the elements with SVG elements with filters.
 
 ## Changelog
 
