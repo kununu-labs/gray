@@ -32,8 +32,8 @@ bower install --save gray
 Or use the CDN links:
 
 ```
-https://npmcdn.com/jquery-gray@1.5.0/css/gray.min.css
-https://npmcdn.com/jquery-gray@1.5.0/js/jquery.gray.min.js
+https://npmcdn.com/jquery-gray@1.6.0/css/gray.min.css
+https://npmcdn.com/jquery-gray@1.6.0/js/jquery.gray.min.js
 ```
 
 Or you can just [download](https://github.com/karlhorky/gray/archive/gh-pages.zip) it.
@@ -137,6 +137,7 @@ The `jquery.gray` plugin uses the [`Modernizr._prefixes`, `css-filters`, `Inline
 
 ## Changelog
 
+- v1.6.0: Throw error when modernizr feature detects not in build [#71](https://github.com/karlhorky/gray/issues/71) [#72](https://github.com/karlhorky/gray/issues/72)
 - v1.5.0: Add SVG &lt;title&gt; to polyfill for accessibility ([demo](https://work.karlhorky.com/gray/#img-alt))
 - v1.4.5: Fix sizing of img tags with padding
 - v1.4.4: Fix bug with missing padding properties with background images
