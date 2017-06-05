@@ -91,7 +91,7 @@ Or you can just [download](https://github.com/karlhorky/gray/archive/gh-pages.zi
     <img src="/img/color.jpg" class="grayscale grayscale-fade">
     ```
 
-5. If you are using Modernizr already, make sure that the [required feature detects](https://github.com/karlhorky/gray#how-it-works) are included in your build.
+5. If you are using Modernizr already, make sure that the [required feature detects](https://github.com/karlhorky/gray#modernizr) are included in your build.
 
 6. Revel in your absolute and utter awesomeness.
 
